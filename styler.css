@@ -1,0 +1,122 @@
+#master-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px red solid;
+    height: 100vh;
+}
+
+
+#left-panel{
+    /* border: 1px blue solid; */
+    width: 28vw;
+    background-image: url("images/plant.webp");
+    background-size: 400px;
+}
+
+#banner{
+    height: 100px;
+    background-color: rgba(225, 240, 227, 0.696);
+    margin-top: 50px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#banner img{
+    height: 100%;
+}
+
+#right-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border: 1px green solid;
+    width: 75vw;
+    background-color: rgba(243, 243, 243, 0.993);
+}
+
+
+#header-trio {
+    /* border: 1px blue solid; */
+    padding-left: 4%;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+#form-trio {
+    /* border: 1px blue solid; */
+    padding-left: 4%;
+    height: 100%;
+    box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.839), 1px 3px 4px 4px gray;
+    background-color: white;
+}
+
+#form-trio p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+form {
+    display: flex; */
+    flex-direction: row;
+    justify-content: space-around; 
+    /* height: 80%; */
+}
+
+label {
+    padding-top: 5%;
+}
+
+#left-form-column{
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 30%; */
+}
+
+#right-form-column{
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+#submission-trio {
+    padding-left: 4%;
+    /* border: 1px blue solid; */
+    height: 100%;
+    padding-top: 5%;
+}
+
+button{
+    height: 15%;
+    width: 35%;
+    text-align: center;
+    align-items: center;
+    line-height: 0; /*center text*/
+    background-color: #3D794D;
+    color: #ECEFE7;
+    border-radius: 5px;
+}
+
+#submission-trio>p{
+    /* background-color: aqua; */
+    margin:0;
+    font-size: smaller;
+}
+
+input{
+    border-color:whitesmoke;
+    border-radius: 3px;
+}
+
+input:focus {
+    background-color: #82956e3c;
+    border-radius: 5px;
+}
