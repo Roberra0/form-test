@@ -120,3 +120,7 @@ input:focus {
     background-color: #82956e3c;
     border-radius: 5px;
 }
+
+input:invalid{
+    border-color: rgb(154, 24, 24);
+}
